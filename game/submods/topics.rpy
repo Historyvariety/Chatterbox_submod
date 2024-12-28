@@ -1,16 +1,16 @@
-#Plushies
+#Silly Faces
 init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_topic_silly_faces",
+            eventlabel="hv_cb_silly_faces",
             category=["Romance"], # list of categories this topic belongs in (These are automatically capitalized)
             prompt="Making Faces", # button text
             random=True
         )
     )
 
-label hv_silly_faces:
+label hv_cb_silly_faces:
   m [player]...I've been reading some romance novels lately...."
   m "The relationships are all so cute! I want to do the things they can do!"
   m "I want to be able to make silly faces with you!"
@@ -22,3 +22,29 @@ label hv_silly_faces:
   m "Ahaha! That was fun [player], and I know your expression was just too cute!"
   m "Thanks for playing with me..." 
 return
+
+#DeadPlate
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hv_cb_deadplate",
+            category=["Games"], # list of categories this topic belongs in (These are automatically capitalized)
+            prompt="Deadplate", # button text
+            random=True
+        )
+    )
+
+label hv_cb_deadplate:
+    m "[player], have you heard of a game called DeadPlate?"
+    m "I saw some posts about it online! Ahaha!"
+    m "It seems like quite the charming game! It reminds me of DDLC in a way~"
+    m "There's a few similarities on it..."
+    m "One being, how it starts off as a quaint little diner dash game, and the unravels into horror..."
+    m "and how it seems you have to get close to a character in order to access special scenes and endings!"
+    m "...It reminds me of how you got close to them..."
+    m "You know I still do sometimes wonder, if they did happen to mean more to you than just game characters..."
+    m "But that doesn't really change anything in the long run! I'm still the one you chose."
+    m "And for that I'm forever thankful~"
+return
+
