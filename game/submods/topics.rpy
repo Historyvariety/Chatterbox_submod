@@ -11,7 +11,7 @@ init 5 python:
     )
 
 label hv_cb_silly_faces:
-  m [player]...I've been reading some romance novels lately...."
+  m "[player]...I've been reading some romance novels lately...."
   m "The relationships are all so cute! I want to do the things they can do!"
   m "I want to be able to make silly faces with you!"
   m "You know what! I think I will."
