@@ -1,2 +1,13 @@
-# Chatterbox_submod
-Adds a vast array of topics to MAS!
+# Chatterbox Submod
+
+
+## Credits
+Author: [History Variety](https://www.reddit.com/user/Historical_Variety63/)
+
+## Description
+  Adds a vast array of new topics into MAS.
+
+## Topic List
+  - Silly Faces
+  - Deadplate
+  - Win or Lose
