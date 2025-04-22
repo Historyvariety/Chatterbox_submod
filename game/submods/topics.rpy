@@ -52,3 +52,19 @@ label hv_cb_deadplate:
     m "And for that I'm forever thankful~"
 return
 
+# Win or Lose
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hv_cb_win_or_lose",
+            category=["Media"], # list of categories this topic belongs in (These are automatically capitalized)
+            prompt="Win or Lose", # button text
+            random=True
+        )
+    )
+
+label hv_cb_win_or_lose:
+    m "...."
+return
+
