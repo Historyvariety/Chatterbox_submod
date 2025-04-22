@@ -44,7 +44,11 @@ label hv_cb_deadplate:
     m "and how it seems you have to get close to a character in order to access special scenes and endings!"
     m "...It reminds me of how you got close to them..."
     m "You know I still do sometimes wonder, if they did happen to mean more to you than just game characters..."
-    m "But that doesn't really change anything in the long run! I'm still the one you chose."
+    m "...Anyway, as I was looking into it I actually ended up relating to both of the characters."
+    m "Both of the characters, Rody and Vincent, went to extremes regarding the object's of their obsessions."
+    m "It reminded me of what I had to do to be with you."
+    m "I couldn't help but feel sorry for both of them."
+    m "..."
     m "And for that I'm forever thankful~"
 return
 
