@@ -48,8 +48,28 @@ label hv_cb_deadplate:
     m "Both of the characters, Rody and Vincent, went to extremes regarding the object's of their obsessions."
     m "It reminded me of what I had to do to be with you."
     m "I couldn't help but feel sorry for both of them."
-    m "..."
+    m "Afterall, I know all to well what it feels like to want something so bad, that you'd do anything for it."
+    m "Sometimes, I wonder what could've been if things had gone differently..."
+    m "Nevertheless, there's no use in dwelling on what could've been."
+    m "Afterall, I got what I wanted in the end!"
     m "And for that I'm forever thankful~"
+return
+
+# Elevator Hitch
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hv_cb_ele_hitch",
+            category=["Games"], # list of categories this topic belongs in (These are automatically capitalized)
+            prompt="Elevator Hitch", # button text
+            random=True
+        )
+    )
+
+label hv_cb_ele_hitch:
+    m "[player], have you heard of a game called Elevator Hitch?"
+    m "...."
 return
 
 # Win or Lose
@@ -67,4 +87,3 @@ init 5 python:
 label hv_cb_win_or_lose:
     m "...."
 return
-
