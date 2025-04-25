@@ -85,5 +85,18 @@ init 5 python:
     )
 
 label hv_cb_win_or_lose:
-    m "...."
+    m "You know, I've been watching this show recently, [player]."
+    m "It's called Win or Lose! It's very interesting, you know?"
+    m "I have to admit, the style was a very cutesy which caused me to not think much of it."
+    m "But I gave it a chance, and it's incredibly well written."
+    m "I personally relate to the one of the characters named Kai."
+    m "Her story was about her feeling pressured by all the expecations her father put on her."
+    m "While I can't say I felt pressured by my...parents..."
+    m "I always did feel pressured by the expecations of others. Like the other girls."
+    m "They were always looking up to me, to make the right decision, to be the leader."
+    m "And while it did bring me an immesurable amount of pride to be someone others looked up too."
+    m "I did always have some anxiety regarding what would happen if I couldn't meet their expectations..."
+    m "...If I had let them down..."
+    m "Well, I guess it doesn't matter anymore. It's not like their here anymore."
+    m "And I could never let you down, ahah!"
 return
