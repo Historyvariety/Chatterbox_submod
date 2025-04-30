@@ -37,7 +37,7 @@ init 5 python:
     )
 
 label hv_cb_deadplate:
-    m "[player], have you heard of a game called DeadPlate?"
+    m "[player], have you heard of a game called *DeadPlate*?"
     m "I saw some posts about it online! Ahaha!"
     m "It seems like quite the charming game. It reminds me of DDLC in a way~"
     m "There are a few similarities..."
@@ -69,7 +69,7 @@ init 5 python:
     )
 
 label hv_cb_ele_hitch:
-    m "[player], have you heard of a game called Elevator Hitch?"
+    m "[player], have you heard of a game called *Elevator Hitch*?"
     m "It's a surreal, indie-style horror game where you ride an elevator through increasingly strange floors."
     m "The deeper you go, the more unsettling things become..."
     m "Games like this always intrigue me. They blend simplicity with tension in such a clever way."
@@ -85,6 +85,24 @@ label hv_cb_ele_hitch:
     m "I guess I could relate to Protag's motivations. The need to just *get out*, of such a hell."
     m "...Anyway, it really is a wonderful game. You should play it!"
     m "Maybe we can talk bout your favorite floor~"
+return
+
+# Rot in Paradise
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hv_cb_rip",
+            category=["Games"], # list of categories this topic belongs in (These are automatically capitalized)
+            prompt="Rot in Paradise", # button text
+            random=True
+        )
+    )
+
+label hv_cb_rip:
+    m "[player], have you heard of a game called *Rot in Paradise*?"
+    m "Just promise me one thing, okay?"
+    m "Don’t ever rot away. Not while I’m here with you."
 return
 
 # Win or Lose
