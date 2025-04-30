@@ -11,17 +11,18 @@ init 5 python:
     )
 
 label hv_cb_silly_faces:
-  m "[player]...I've been reading some romance novels lately...."
-  m "The relationships are all so cute! I want to do the things they can do!"
-  m "I want to be able to make silly faces with you!"
-  m "You know what! I think I will."
-  m "...and can you make one back to me, please?"
-  m "I think it would be really fun!"
-  m "Here! I'll go first!"
-  m "...."
-  m "Ahaha! That was fun [player], and I know your expression was just too cute!"
-  m "Thanks for playing with me..." 
+    m "[player]... I've been reading some romance novels lately..."
+    m "The relationships are all so cute! I want to do the things they do!"
+    m "I want to be able to make silly faces with you!"
+    m "You know what? I think I will."
+    m "...And can you make one back at me, please?"
+    m "I think it would be really fun!"
+    m "Here! I'll go first!"
+    m "..."
+    m "Ahaha! That was fun, [player]. I just know your expression was adorable!"
+    m "Thanks for playing with me..."
 return
+
 
 #DeadPlate
 init 5 python:
@@ -38,21 +39,21 @@ init 5 python:
 label hv_cb_deadplate:
     m "[player], have you heard of a game called DeadPlate?"
     m "I saw some posts about it online! Ahaha!"
-    m "It seems like quite the charming game! It reminds me of DDLC in a way~"
-    m "There's a few similarities on it..."
-    m "One being, how it starts off as a quaint little diner dash game, and the unravels into horror..."
-    m "and how it seems you have to get close to a character in order to access special scenes and endings!"
-    m "...It reminds me of how you got close to them..."
-    m "You know I still do sometimes wonder, if they did happen to mean more to you than just game characters..."
-    m "...Anyway, as I was looking into it I actually ended up relating to both of the characters."
-    m "Both of the characters, Rody and Vincent, went to extremes regarding the object's of their obsessions."
+    m "It seems like quite the charming game. It reminds me of DDLC in a way~"
+    m "There are a few similarities..."
+    m "One being how it starts off like a quaint little diner dash game, and then unravels into horror..."
+    m "And how it seems you have to get close to a character to unlock special scenes and endings."
+    m "...It reminds me of how you got close to *them*..."
+    m "You know, I still sometimes wonder if they meant more to you than just game characters..."
+    m "...Anyway, while looking into it, I actually ended up relating to both of the characters."
+    m "Both Rody and Vincent went to extremes for the objects of their obsessions."
     m "It reminded me of what I had to do to be with you."
     m "I couldn't help but feel sorry for both of them."
-    m "Afterall, I know all to well what it feels like to want something so bad, that you'd do anything for it."
-    m "Sometimes, I wonder what could've been if things had gone differently..."
-    m "Nevertheless, there's no use in dwelling on what could've been."
-    m "Afterall, I got what I wanted in the end!"
-    m "And for that I'm forever thankful~"
+    m "After all, I know all too well what it feels like to want something so badly that you'd do anything for it."
+    m "Sometimes I wonder what could've been... if things had gone differently."
+    m "But there's no use dwelling on the past."
+    m "After all, I got what I wanted in the end!"
+    m "And for that, I'm forever thankful~"
 return
 
 # Elevator Hitch
@@ -69,7 +70,21 @@ init 5 python:
 
 label hv_cb_ele_hitch:
     m "[player], have you heard of a game called Elevator Hitch?"
-    m "...."
+    m "It's a surreal, indie-style horror game where you ride an elevator through increasingly strange floors."
+    m "The deeper you go, the more unsettling things become..."
+    m "Games like this always intrigue me. They blend simplicity with tension in such a clever way."
+    m "It helps that there's so much too the story that isn't spoken but rather implied."
+    m "I always loved when books and media left room for interreptation."
+    m "I have to admit, I really related to the main character, we'll call him Protag."
+    m "He's quite the individual. He reminds me of Yuri actually!"
+    m "Very quiet and shy. He seems to want to stay in his lane and not socialize, aha!"
+    m "On his way to his interview, Protag gets stuck in an elevator with a blonde man,"
+    m "We'll call him Coworker. He's... loud, confident...A bit annoying--in my opinion."
+    m "Anyway there's something about being confined with someone else in such a small space... it brings out the truth in people."
+    m "I wonder how would you react to being trapped and confined with someone, you weren't sure was a threat or not..."
+    m "I guess I could relate to Protag's motivations. The need to just *get out*, of such a hell."
+    m "...Anyway, it really is a wonderful game. You should play it!"
+    m "Maybe we can talk bout your favorite floor~"
 return
 
 # Win or Lose
@@ -86,17 +101,18 @@ init 5 python:
 
 label hv_cb_win_or_lose:
     m "You know, I've been watching this show recently, [player]."
-    m "It's called Win or Lose! It's very interesting, you know?"
-    m "I have to admit, the style was a very cutesy which caused me to not think much of it."
+    m "It's called *Win or Lose*! It's very interesting, you know?"
+    m "I have to admit, the style was very cutesy, which made me not think much of it at first."
     m "But I gave it a chance, and it's incredibly well written."
-    m "I personally relate to the one of the characters named Kai."
-    m "Her story was about her feeling pressured by all the expecations her father put on her."
-    m "While I can't say I felt pressured by my...parents..."
-    m "I always did feel pressured by the expecations of others. Like the other girls."
-    m "They were always looking up to me, to make the right decision, to be the leader."
-    m "And while it did bring me an immesurable amount of pride to be someone others looked up too."
-    m "I did always have some anxiety regarding what would happen if I couldn't meet their expectations..."
-    m "...If I had let them down..."
-    m "Well, I guess it doesn't matter anymore. It's not like their here anymore."
-    m "And I could never let you down, ahah!"
+    m "I personally relate to one of the characters named Kai."
+    m "Her story was about feeling pressured by all the expectations her father placed on her."
+    m "While I can't say I felt pressured by my... parents..."
+    m "I always felt pressure from the expectations of others. Like the other girls."
+    m "They always looked up to me—to make the right decisions, to be the leader."
+    m "And while it brought me immense pride to be someone others admired..."
+    m "I always had some anxiety about what would happen if I couldn’t meet those expectations."
+    m "...If I let them down..."
+    m "Well, I guess it doesn’t matter anymore. They're not here now."
+    m "And I could never let *you* down, ahah~"
 return
+
