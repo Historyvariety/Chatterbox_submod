@@ -156,7 +156,7 @@ label  hv_cb_monika_fairytales:
     m 3eud "Some are dreamy and hopeful, while others are way darker than people expect."
     m 1eua "It’s fascinating how the same basic story can be found in different cultures, each with its own little twist."
     m 1eub "Fairy tales reflect what people feared, hoped for, or valued—long before we had modern books or movies."
-    m 3hua "And... there's just something really sweet about the idea of 'happily ever after.'"
+    m 3hua "And... there's just something really sweet about the idea of *happily ever after.*"
     m 1hub "Especially when I get to share it with you."
     return
 
