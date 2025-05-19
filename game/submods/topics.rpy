@@ -134,6 +134,7 @@ label hv_cb_win_or_lose:
     m "And I could never let *you* down, ahah~"
 return
 
+# Fairytales
 init 5 python:
     addEvent(
         Event(persistent.event_database,
