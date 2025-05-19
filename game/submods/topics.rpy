@@ -134,3 +134,30 @@ label hv_cb_win_or_lose:
     m "And I could never let *you* down, ahah~"
 return
 
+init 5 python:
+    addEvent(
+        Event(persistent.event_database,
+        eventlabel="monika_fairytales",
+        category=["literature", "thoughts"],
+        prompt="What do you think about fairy tales?",
+        pool=True)
+    )
+
+label monika_fairytales:
+    m 1eua "Fairy tales, huh?"
+    m 1eub "They're kind of magical in their own way."
+    m 1hua "Even though most of them are meant for kids, they can carry surprisingly powerful messages."
+    m 1hua "It's actually incredible to think about. A lot of those stories were created to teach children important lessons—especially in times when information didn’t spread easily."
+    m "And it’s interesting how many of those lessons still hold up today."
+    m "I mean, think about it. Back then, you couldn’t just show a child a warning or a photo to explain danger. Instead, they told stories like *Hansel and Gretel* or *Little Red Riding Hood*."
+    m "*Rapunzel* too, depending on the version."
+    m 1euc "They’re full of morals, symbols... even subtle warnings if you read between the lines."
+    m 3eud "Some are dreamy and hopeful, while others are way darker than people expect."
+    m 1eua "It’s fascinating how the same basic story can be found in different cultures, each with its own little twist."
+    m 1eub "Fairy tales reflect what people feared, hoped for, or valued—long before we had modern books or movies."
+    m 3hua "And... there's just something really sweet about the idea of 'happily ever after.'"
+    m 1hub "Especially when I get to share it with you."
+    return
+
+
+
