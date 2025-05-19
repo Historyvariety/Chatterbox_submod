@@ -138,13 +138,13 @@ return
 init 5 python:
     addEvent(
         Event(persistent.event_database,
-        eventlabel="monika_fairytales",
+        eventlabel=" hv_cb_monika_fairytales",
         category=["literature", "thoughts"],
         prompt="What do you think about fairy tales?",
         pool=True)
     )
 
-label monika_fairytales:
+label  hv_cb_monika_fairytales:
     m 1eua "Fairy tales, huh?"
     m 1eub "They're kind of magical in their own way."
     m 1hua "Even though most of them are meant for kids, they can carry surprisingly powerful messages."
