@@ -161,7 +161,7 @@ label  hv_cb_monika_fairytales:
     return
 
 
-# Fairytales
+# ADHD
 init 5 python:
     addEvent(
         Event(persistent.event_database,
