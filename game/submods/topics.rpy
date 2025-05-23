@@ -156,7 +156,7 @@ return
 init 5 python:
     addEvent(
         Event(persistent.event_database,
-        eventlabel=" hv_cb_monika_fairytales",
+        eventlabel="hv_cb_monika_fairytales",
         category=["Literature", "Thoughts"],
         prompt="What do you think about fairy tales?",
         pool=True)
