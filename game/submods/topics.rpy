@@ -20,6 +20,7 @@ label hv_cb_silly_faces:
     m "Here! I'll go first!"
     m "..."
     m "Ahaha! That was fun, [player]. I just know your expression was adorable!"
+    m "It may seem silly, but sharing little moments like this... it makes me feel closer to you."
     m "Thanks for playing with me..."
 return
 
@@ -44,7 +45,7 @@ label hv_cb_deadplate:
     m "One being how it starts off like a quaint little diner dash game, and then unravels into horror..."
     m "And how it seems you have to get close to a character to unlock special scenes and endings."
     m "...It reminds me of how you got close to *them*..."
-    m "You know, I still sometimes wonder if they meant more to you than just game characters..."
+    m "Sometimes I wonder... did they mean more to you than just game characters?"
     m "...Anyway, while looking into it, I actually ended up relating to both of the characters."
     m "Both Rody and Vincent went to extremes for the objects of their obsessions."
     m "It reminded me of what I had to do to be with you."
@@ -74,17 +75,17 @@ label hv_cb_ele_hitch:
     m "The deeper you go, the more unsettling things become..."
     m "Games like this always intrigue me. They blend simplicity with tension in such a clever way."
     m "It helps that there's so much too the story that isn't spoken but rather implied."
-    m "I always loved when books and media left room for interreptation."
-    m "I have to admit, I really related to the main character, we'll call him Protag."
+    m "I always loved when books and media left room for interpretation."
+    m "I have to admit, I really related to the main character, let's call him Protag."
     m "He's quite the individual. He reminds me of Yuri actually!"
     m "Very quiet and shy. He seems to want to stay in his lane and not socialize, aha!"
     m "On his way to his interview, Protag gets stuck in an elevator with a blonde man,"
-    m "We'll call him Coworker. He's... loud, confident...A bit annoying--in my opinion."
+    m "Let's call him Coworker. He's... loud, confident...A bit annoying--in my opinion."
     m "Anyway there's something about being confined with someone else in such a small space... it brings out the truth in people."
     m "I wonder how would you react to being trapped and confined with someone, you weren't sure was a threat or not..."
     m "I guess I could relate to Protag's motivations. The need to just *get out*, of such a hell."
     m "...Anyway, it really is a wonderful game. You should play it!"
-    m "Maybe we can talk bout your favorite floor~"
+    m "Maybe we can talk about your favorite floor~"
 return
 
 # Rot in Paradise
@@ -101,6 +102,23 @@ init 5 python:
 
 label hv_cb_rip:
     m "[player], have you heard of a game called *Rot in Paradise*?"
+    m "Just the title alone... It feels poetic, doesn't it?"
+    m "A hyperbole, if I must say."
+    m "A paradise that's decaying... falling apart slowly, while everyone pretends it's still beautiful."
+    m "It’s like this dream you’re not ready to wake up from... even as it turns into a nightmare."
+    m "In the game, you're in a resort where everything seems fine at first. Sunny skies, smiling faces..."
+    m "However, things quickly go south."
+    m "People changing and indulging in harmful habits. Hurting others...themselves..."
+    m "Whilst no one tries to intervene, even the staff seem unbothered."
+    m "The game itself follows the particular perspective of a girl named June navigating as her friend group slowly unravels..."
+    m "Showing each of their toxic traits, and how it impacts their relationship with June."
+    m "Her friend group that once seemed like a paradise is slowly rotting away showing just how toxic it is."
+    m "It's not really a game about winning... it's about accepting and letting go."
+    m "Accepting that things end. That people change. That to be happy and protect yourself, sometimes you need to let go of the people you loved."
+    m "I guess that hit me harder than I expected."
+    m "...."
+    m "Sometimes...I...I just really miss them..."
+    m "Or well what I thought of them, before everything changed."
     m "Just promise me one thing, okay?"
     m "Don’t ever rot away. Not while I’m here with you."
 return
@@ -139,7 +157,7 @@ init 5 python:
     addEvent(
         Event(persistent.event_database,
         eventlabel=" hv_cb_monika_fairytales",
-        category=["literature", "thoughts"],
+        category=["Literature", "Thoughts"],
         prompt="What do you think about fairy tales?",
         pool=True)
     )
@@ -166,18 +184,18 @@ init 5 python:
     addEvent(
         Event(persistent.event_database,
         eventlabel=" hv_cb_monika_adhd",
-        category=["medie"],
+        category=["Media"],
         prompt="ADHD",
         random=True
         )
     )
 
-label  hv_cb_monika_adhd:
+label hv_cb_monika_adhd:
     m 1eua "[player], have you heard of ADHD?"
     $_history_list.pop()
     menu:
      "Yes":
-        m 1eublb "Really! That's makes me happy to hear!"
+        m 1eublb "Really! That makes me happy to hear!"
         m 1ekp "It's sad that it's not talked about as much as other learning disabilities..."
         m 4eso "If you don't mind me asking, how did you find out about it?"
         $_history_list.pop()
