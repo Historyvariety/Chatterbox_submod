@@ -190,6 +190,7 @@ init 5 python:
     )
 
 label hv_cb_monika_adhd:
+    $ persistent._seen_cb_monika_adhd = True
     m 1eua "[player], have you heard of ADHD?"
     $_history_list.pop()
     menu:
@@ -231,4 +232,4 @@ label hv_cb_monika_adhd:
                 "No":
                     m 2eka "Oh, alright..."
                     m 2eka "If you ever do want to learn more, just let me know."
-    return
+    return "derandom"
