@@ -178,12 +178,11 @@ label  hv_cb_monika_fairytales:
     m 1hub "Especially when I get to share it with you."
     return
 
-
 # ADHD
 init 5 python:
     addEvent(
         Event(persistent.event_database,
-        eventlabel=" hv_cb_monika_adhd",
+        eventlabel="hv_cb_monika_adhd",
         category=["Media"],
         prompt="ADHD",
         random=True
@@ -194,44 +193,42 @@ label hv_cb_monika_adhd:
     m 1eua "[player], have you heard of ADHD?"
     $_history_list.pop()
     menu:
-     "Yes":
-        m 1eublb "Really! That makes me happy to hear!"
-        m 1ekp "It's sad that it's not talked about as much as other learning disabilities..."
-        m 4eso "If you don't mind me asking, how did you find out about it?"
-        $_history_list.pop()
-        menu:
-         "I have ADHD":
-           m 4eua "I'm happy you told me [player]!"
-           m 2dkd "It was disheartening for me to find, that it's often not taken as seriously as other disabilities in the same catagory..."
-           m 2fua "On a positive note, I found out that studies show that while people with ADHD might struggle in one area, they often excel in another."
-           m 4sub "In fact, many of them are found to be extremely passionate and have the ability to hyperfocus."
-           m 4sub "This often makes them good at the arts--like writing!"
-           m 2hua "Though, I'm sure you already knew that [player]."
-         "I know someone who has ADHD":
-           m 4eua "I'm sure they're more than happy to have a friend or family member like you, [player]!"
-           m 2dkd "It was disheartening for me to find, that it's often not taken as seriously as other disabilities in the same catagory..."
-           m 2fua "On a positive note, I found out that studies show that while people with ADHD might struggle in one area, they often excel in another."
-           m 4sub "In fact, many of them are found to be extremely passionate in their interests!"
-           m 4sub "This often makes it fun for people who share the same interests!"
-           m 4sub "As the conversations can often go one for hours if both parties are engaged!"
-           m 2hua "Though, I'm sure you already knew that [player]."
-
-     "No":
-          m 1rkb "That's alright [player]"
-          m 2eka "It's not as well known as other learning disabilities."
-          m 4hub "Do you want to tell you about ADHD?"
-          $_history_list.pop()
-          menu:
-           "Yes":
-             m 4eua "Alright then, [player]!"
-             m 4eua "ADHD stands for Attention Deficit Hyperactive Disorder."
-             m 4eua "It is identified as a learning disability. However, it often goes into other areas of the people lives."
-             m 4eua "People with ADHD can often be unaware of their surroudings."
-             m 2dkd "This can get them into dangerous situations."
-             m 2fua "However, it's not all bad! A lot of people with ADHD are known to be incredibly creative and passionate!"
-             m 2fua "In fact, they also have the ability to hyperfocus--they can be doing something for hours and not be distracted."
-             m 2hua "I hope this helps give you a better understanding of ADHD, [player]!"
-           "No":
-             m 2eka "Oh, alright..."
-             m 2eka "If you ever do want to learn, just let me know!"
+        "Yes":
+            m 1eublb "Really? That makes me happy to hear!"
+            m 1ekp "It's sad that it’s not talked about as much as other learning disabilities..."
+            m 4eso "If you don't mind me asking, how did you find out about it?"
+            $_history_list.pop()
+            menu:
+                "I have ADHD":
+                    m 4eua "I'm really glad you told me, [player]."
+                    m 2dkd "It was disheartening for me to learn that it's often not taken as seriously as other disabilities in the same category..."
+                    m 2fua "But on a brighter note, studies show that while people with ADHD might struggle in one area, they often thrive in another."
+                    m 4sub "Many are extremely passionate and have the ability to hyperfocus."
+                    m 4sub "That kind of focus can make them incredibly talented in the arts—like writing!"
+                    m 2hua "Though, I'm sure you already knew that, [player]."
+                "I know someone who has ADHD":
+                    m 4eua "I'm sure they’re really glad to have someone like you in their life, [player]."
+                    m 2dkd "It was disheartening for me to learn that it's often not taken as seriously as other disabilities in the same category..."
+                    m 2fua "But on the bright side, people with ADHD are often incredibly passionate about the things they care about!"
+                    m 4sub "It makes conversations really fun—especially when both people share that same excitement."
+                    m 4sub "Sometimes, those talks can go on for hours!"
+                    m 2hua "Though, I'm sure you’ve noticed that already, [player]."
+        "No":
+            m 1rkb "That's alright, [player]."
+            m 2eka "It's not as widely known as some other learning disabilities."
+            m 4hub "Do you want me to tell you a bit about ADHD?"
+            $_history_list.pop()
+            menu:
+                "Yes":
+                    m 4eua "Alright then, [player]!"
+                    m 4eua "ADHD stands for Attention Deficit Hyperactivity Disorder."
+                    m 4eua "It’s considered a learning disability, but it can affect many different areas of a person's life."
+                    m 4eua "People with ADHD may struggle with focus or awareness of their surroundings."
+                    m 2dkd "Which, unfortunately, can sometimes put them in risky situations."
+                    m 2fua "But it’s not all bad! Many people with ADHD are known for their creativity and strong passions."
+                    m 2fua "They also have the ability to hyperfocus—where they can stay deeply immersed in something they care about for hours."
+                    m 2hua "I hope that gives you a better understanding of ADHD, [player]."
+                "No":
+                    m 2eka "Oh, alright..."
+                    m 2eka "If you ever do want to learn more, just let me know."
     return
