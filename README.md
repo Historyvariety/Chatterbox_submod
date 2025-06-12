@@ -11,5 +11,8 @@ Author: [History Variety](https://www.reddit.com/user/Historical_Variety63/)
   - Silly Faces
   - Deadplate
   - Elevator Hitch
+  - Rot in Paradise
   - Win or Lose
   - Fairytales
+  - Gardening
+  - Update on old ADHD topic
