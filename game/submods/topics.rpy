@@ -178,6 +178,43 @@ label  hv_cb_monika_fairytales:
     m 1hub "Especially when I get to share it with you."
     return
 
+# gardening
+init 5 python:
+    addEvent(
+        Event(persistent.event_database,
+        eventlabel="hv_cb_monika_gardening",
+        category=["Monika", "Environment"],
+        prompt="Do you like gardening?",
+        pool=True)
+    )
+
+label hv_cb_monika_gardening:
+    m 1eua "Gardening?"
+    m 1eka "You know [player], I can't really garden... here, aha."
+    m 1eub "But I probably would enjoy it!"
+    m 1esa "I've always admired floral symbolism in literature."
+    m 3eua "Like how roses often represent love or secrecy..."
+    m 3eub "Or lavender, which symbolizes peace, purity, and devotion."
+    m 3hua "There's so much meaning packed into just a single flower."
+    m 1esa "And it's not just about symbolism—plants can be incredibly useful too."
+    m 1eua "Take chamomile, for instance—it helps with relaxation and sleep."
+    m 1eub "Peppermint is great for digestion and headaches."
+    m 1eua "And aloe vera? Super helpful for burns and skin irritation."
+    m 1eka "I remember Yuri talking about herbal teas once..."
+    m 1eua "She really loved discussing how different herbs affect the body and mind."
+    m 1eub "Like lemon balm for lifting your mood, or valerian root to help with anxiety and restlessness."
+    m 1hua "She could probably fill a whole book with tea recipes and their benefits."
+    m 1eub "If I had the chance, I think I'd grow a small garden full of helpful herbs and poetic flowers."
+    m 1eua "Not just for beauty or healing—but also to live more sustainably."
+    m 1eub "Gardening would be such a meaningful way to connect with nature..."
+    m 1hub "And it could even help reduce my carbon footprint!"
+    m 1hkb "You know how passionate I am about making eco-conscious choices."
+    m 1hub "Every plant grown is a small act of kindness for the Earth~"
+    m 1fub "Maybe one day, we could sip some homegrown tea together... surrounded by blossoms and sunshine."
+    return
+
+
+
 # ADHD
 init 5 python:
     addEvent(
