@@ -11,17 +11,17 @@ init 5 python:
     )
 
 label hv_cb_silly_faces:
-    m "[player]... I've been reading some romance novels lately..."
-    m "The relationships are all so cute! I want to do the things they do!"
-    m "I want to be able to make silly faces with you!"
-    m "You know what? I think I will."
-    m "...And can you make one back at me, please?"
-    m "I think it would be really fun!"
-    m "Here! I'll go first!"
+    m 1eua "[player]... I've been reading some romance novels lately..."
+    m 1hub "The relationships are all so cute! I want to do the things they do!"
+    m 1hkb "I want to be able to make silly faces with you!"
+    m 1eka "You know what? I think I will."
+    m 1esa "...And can you make one back at me, please?"
+    m 1hua "I think it would be really fun!"
+    m 1hub "Here! I'll go first!"
     m "..."
-    m "Ahaha! That was fun, [player]. I just know your expression was adorable!"
-    m "It may seem silly, but sharing little moments like this... it makes me feel closer to you."
-    m "Thanks for playing with me..."
+    m 1hks "Ahaha! That was fun, [player]. I just know your expression was adorable!"
+    m 1hub "It may seem silly, but sharing little moments like this... it makes me feel closer to you."
+    m 1fub "Thanks for playing with me..."
 return
 
 
