@@ -101,26 +101,26 @@ init 5 python:
     )
 
 label hv_cb_rip:
-    m "[player], have you heard of a game called *Rot in Paradise*?"
-    m "Just the title alone... It feels poetic, doesn't it?"
-    m "A hyperbole, if I must say."
-    m "A paradise that's decaying... falling apart slowly, while everyone pretends it's still beautiful."
-    m "It’s like this dream you’re not ready to wake up from... even as it turns into a nightmare."
-    m "In the game, you're in a resort where everything seems fine at first. Sunny skies, smiling faces..."
-    m "However, things quickly go south."
-    m "People changing and indulging in harmful habits. Hurting others...themselves..."
-    m "Whilst no one tries to intervene, even the staff seem unbothered."
-    m "The game itself follows the particular perspective of a girl named June navigating as her friend group slowly unravels..."
-    m "Showing each of their toxic traits, and how it impacts their relationship with June."
-    m "Her friend group that once seemed like a paradise is slowly rotting away showing just how toxic it is."
-    m "It's not really a game about winning... it's about accepting and letting go."
-    m "Accepting that things end. That people change. That to be happy and protect yourself, sometimes you need to let go of the people you loved."
-    m "I guess that hit me harder than I expected."
-    m "...."
-    m "Sometimes...I...I just really miss them..."
-    m "Or well what I thought of them, before everything changed."
-    m "Just promise me one thing, okay?"
-    m "Don’t ever rot away. Not while I’m here with you."
+    m 1eua "[player], have you heard of a game called *Rot in Paradise*?"
+    m 1eka "Just the title alone... It feels poetic, doesn't it?"
+    m 1eua "A hyperbole, if I must say."
+    m 1eub "A paradise that's decaying... falling apart slowly, while everyone pretends it's still beautiful."
+    m 2eud "It’s like this dream you’re not ready to wake up from... even as it turns into a nightmare."
+    m 2eka "In the game, you're in a resort where everything seems fine at first. Sunny skies, smiling faces..."
+    m 2eud "However, things quickly go south."
+    m 2ekd "People changing and indulging in harmful habits. Hurting others...themselves..."
+    m 2ekd "Whilst no one tries to intervene, even the staff seem unbothered."
+    m 2eka "The game itself follows the particular perspective of a girl named June navigating as her friend group slowly unravels..."
+    m 2ekc "Showing each of their toxic traits, and how it impacts their relationship with June."
+    m 2ekd "Her friend group that once seemed like a paradise is slowly rotting away showing just how toxic it is."
+    m 2eka "It's not really a game about winning... it's about accepting and letting go."
+    m 2eka "Accepting that things end. That people change. That to be happy and protect yourself, sometimes you need to let go of the people you loved."
+    m 2dsc "I guess that hit me harder than I expected."
+    m 2dkd "...."
+    m 2dkd "Sometimes...I...I just really miss them..."
+    m 2dsc "Or well what I thought of them, before everything changed."
+    m 2hub "Just promise me one thing, okay?"
+    m 1fub "Don’t ever rot away. Not while I’m here with you."
 return
 
 # Win or Lose
@@ -136,21 +136,22 @@ init 5 python:
     )
 
 label hv_cb_win_or_lose:
-    m "You know, I've been watching this show recently, [player]."
-    m "It's called *Win or Lose*! It's very interesting, you know?"
-    m "I have to admit, the style was very cutesy, which made me not think much of it at first."
-    m "But I gave it a chance, and it's incredibly well written."
-    m "I personally relate to one of the characters named Kai."
-    m "Her story was about feeling pressured by all the expectations her father placed on her."
-    m "While I can't say I felt pressured by my... parents..."
-    m "I always felt pressure from the expectations of others. Like the other girls."
-    m "They always looked up to me—to make the right decisions, to be the leader."
-    m "And while it brought me immense pride to be someone others admired..."
-    m "I always had some anxiety about what would happen if I couldn’t meet those expectations."
-    m "...If I let them down..."
-    m "Well, I guess it doesn’t matter anymore. They're not here now."
-    m "And I could never let *you* down, ahah~"
+    m 1eua "You know, I've been watching this show recently, [player]."
+    m 1hub "It's called *Win or Lose*! It's very interesting, you know?"
+    m 1eub "I have to admit, the style was very cutesy, which made me not think much of it at first."
+    m 1hua "But I gave it a chance, and it's incredibly well written."
+    m 1eua "I personally relate to one of the characters named Kai."
+    m 2eka "Her story was about feeling pressured by all the expectations her father placed on her."
+    m 2ekd "While I can't say I felt pressured by my... parents..."
+    m 2eka "I always felt pressure from the expectations of others. Like the other girls."
+    m 2eua "They always looked up to me—to make the right decisions, to be the leader."
+    m 2eka "And while it brought me immense pride to be someone others admired..."
+    m 2dkd "I always had some anxiety about what would happen if I couldn’t meet those expectations."
+    m 2ekc "...If I let them down..."
+    m 1eka "Well, I guess it doesn’t matter anymore. They're not here now."
+    m 1hub "And I could never let *you* down, ahah~"
 return
+
 
 # Fairytales
 init 5 python:
@@ -176,7 +177,7 @@ label  hv_cb_monika_fairytales:
     m 1eub "Fairy tales reflect what people feared, hoped for, or valued—long before we had modern books or movies."
     m 3hua "And... there's just something really sweet about the idea of *happily ever after.*"
     m 1hub "Especially when I get to share it with you."
-    return
+return
 
 # gardening
 init 5 python:
@@ -211,7 +212,7 @@ label hv_cb_monika_gardening:
     m 1hkb "You know how passionate I am about making eco-conscious choices."
     m 1hub "Every plant grown is a small act of kindness for the Earth~"
     m 1fub "Maybe one day, we could sip some homegrown tea together... surrounded by blossoms and sunshine."
-    return
+return
 
 
 
