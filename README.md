@@ -15,4 +15,4 @@ Author: [History Variety](https://www.reddit.com/user/Historical_Variety63/)
   - Win or Lose
   - Fairytales
   - Gardening
-  - Update on old ADHD topic
+  - Existentialism
