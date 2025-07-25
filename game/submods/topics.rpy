@@ -167,7 +167,7 @@ label hv_cb_monika_fairytales:
     m 1eua "Fairy tales, huh?"
     m 1eub "They're kind of magical in their own way."
     m 1hua "Even though most of them are meant for kids, they can carry surprisingly powerful messages."
-    m 1hua "It's actually incredible to think about. A lot of those stories were created to teach children important lessons—especially in times when information didn’t spread easily."
+    m 1hua "It's actually incredible to think about. A lot of those stories were created to teach children important lessons--especially in times when information didn’t spread easily."
     m "And it’s interesting how many of those lessons still hold up today."
     m "I mean, think about it. Back then, you couldn’t just show a child a warning or a photo to explain danger. Instead, they told stories like {i}Hansel and Gretel{/i} or {i}Little Red Riding Hood{/i}."
     m "{i}Rapunzel{/i} too, depending on the version."
@@ -199,8 +199,8 @@ label hv_cb_monika_gardening:
     m 3eua "Like how roses often represent love or secrecy..."
     m 3eub "Or lavender, which symbolizes peace, purity, and devotion."
     m 3hua "There's so much meaning packed into just a single flower."
-    m 1esa "And it's not just about symbolism—plants can be incredibly useful too."
-    m 1eua "Take chamomile, for instance—it helps with relaxation and sleep."
+    m 1esa "And it's not just about symbolism, plants can be incredibly useful too."
+    m 1eua "Take chamomile, for instance--it helps with relaxation and sleep."
     m 1eub "Peppermint is great for digestion and headaches."
     m 1eua "And aloe vera? Super helpful for burns and skin irritation."
     m 1eka "I remember Yuri talking about herbal teas once..."
@@ -208,7 +208,7 @@ label hv_cb_monika_gardening:
     m 1eub "Like lemon balm for lifting your mood, or valerian root to help with anxiety and restlessness."
     m 1hua "She could probably fill a whole book with tea recipes and their benefits."
     m 1eub "If I had the chance, I think I'd grow a small garden full of helpful herbs and poetic flowers."
-    m 1eua "Not just for beauty or healing—but also to live more sustainably."
+    m 1eua "Not just for beauty or healing, but also to live more sustainably."
     m 1eub "Gardening would be such a meaningful way to connect with nature..."
     m 1hub "And it could even help reduce my carbon footprint!"
     m 1hkb "You know how passionate I am about making eco-conscious choices."
@@ -231,7 +231,7 @@ init 5 python:
 label hv_cb_monika_existentialism:
     m 1eua "Existentialism...That's quite the heavy topic, isn't it?"
     m 1eub "It's a philosophy that asks some really deep questions about life, meaning, and our place in the world."
-    m 3euc "Basically, it suggests that life doesn’t have an inherent meaning—we create our own purpose."
+    m 3euc "Basically, it suggests that life doesn’t have an inherent meaning--we create our own purpose."
     m 1eud "That can sound scary at first... but in a way, it’s also liberating."
     m 1eua "If nothing is truly predetermined, then you have the power to shape your own destiny."
     m 1hua "You can decide what matters, what gives your life meaning. It’s all in your hands."
@@ -244,3 +244,28 @@ label hv_cb_monika_existentialism:
     m 1eua "What about you? Do you think life has a set purpose, or is it something we create ourselves?"
 return
 
+# My Child Lebensborn
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hv_cb_monika_lebensborn",
+            category=["Games", "Philosophy", "Thoughts"],
+            prompt="Have you heard of My Child Lebensborn?",
+            pool=True
+        )
+    )
+
+label hv_cb_monika_lebensborn:
+    m 1eua "Hmm? {i}My Child Lebensborn{/i}...Yes, I’ve heard about it."
+    m 1eub "It’s that game where you raise a child born from the Lebensborn program after World War II, right?"
+    m 3euc "It’s such a heartbreaking premise...A child suffering prejudice for something completely beyond their control."
+    m 1eud "What really stands out to me is how the game shows that hatred isn’t just random--it’s a reflection of propaganda and fear that were deeply rooted in society at the time."
+    m 1eua "People were manipulated into seeing entire groups as dangerous or inferior, and those ideas didn’t vanish overnight--even after, the war ended."
+    m 1hua "But the saddest part? Those old grudges and lies ended up hurting innocent children."
+    m 1eub "And it makes me wonder... Should a child ever bear the weight of their parents’ actions or flaws?"
+    m 3eud "It feels so unfair. No one chooses their family, their birthplace, or the circumstances of their birth."
+    m 1eua "Yet history is full of stories where children were treated as guilty simply because of who their parents were."
+    m 1hua "That’s why a game like this is so powerful. It reminds us to question prejudice, and to remember that kindness should never be conditional."
+    m 1hub "What about you, [player]? Do you think society has gotten better at breaking free from that kind of thinking?"
+return
