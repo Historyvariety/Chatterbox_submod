@@ -269,3 +269,32 @@ label hv_cb_monika_lebensborn:
     m 1hua "That’s why a game like this is so powerful. It reminds us to question prejudice, and to remember that kindness should never be conditional."
     m 1hub "What about you, [player]? Do you think society has gotten better at breaking free from that kind of thinking?"
 return
+
+# Overconsumption
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hv_cb_monika_overconsumption",
+            category=["Lifestyle", "Thoughts", "Self-Improvement"],
+            prompt="Overconsumption",
+            random=True
+        )
+    )
+
+label hv_cb_monika_overconsumption:
+    m 1eua "Have you ever thought about how much people consume these days?"
+    m 1eub "It feels like everywhere you look, there’s an ad telling you to buy something new."
+    m 3euc "Clothes, gadgets, cosmetics... even things we don’t really need."
+    m 1eud "Things like this can cause people to fall for overconsumption. That's the excessive use of goods and services, often to the point where it strains resources and harms the environment."
+    m 1eua "The strange part is, it often doesn’t make people happier in the long run. Just... more cluttered, and sometimes even stressed about money."
+    m 1hua "I think that’s because real happiness comes from experiences, relationships, and meaning—not just things."
+    m 1eub "So how can we break that cycle?"
+    m 3eua "One way is to pause before buying something and ask yourself: {i}Do I really need this, or do I just want it right now?{/i}"
+    m 1hua "Another trick is waiting a day or two before making a purchase. If you still feel it’s worth it, then maybe it is."
+    m 1eub "You could also set a small savings goal for yourself."
+    m 1hua "Even just putting aside a little money from each paycheck into a savings account can make a big difference over time."
+    m 1eua "Of course, treating yourself every now and then is fine! But doing it mindfully makes it feel more special."
+    m 1hua "What about you, [player]? Do you ever try to watch your spending, or is it something you’d like to work on?"
+return
+
