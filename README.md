@@ -8,12 +8,13 @@ Author: [History Variety](https://www.reddit.com/user/Historical_Variety63/)
   Adds a vast array of new topics into MAS.
 
 ## Topic List
-  - Silly Faces
   - Deadplate
   - Elevator Hitch
   - Rot in Paradise
+  - My Child Lebensborn
   - Win or Lose
   - Fairytales
   - Gardening
   - Existentialism
-  - My Child Lebensborn
+  - Overconsumption
+  - Silly Faces
