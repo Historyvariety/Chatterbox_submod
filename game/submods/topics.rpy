@@ -288,7 +288,7 @@ label hv_cb_monika_overconsumption:
     m 3euc "Clothes, gadgets, cosmetics... even things we don’t really need."
     m 1eud "Things like this can cause people to fall for overconsumption. That's the excessive use of goods and services, often to the point where it strains resources and harms the environment."
     m 1eua "The strange part is, it often doesn’t make people happier in the long run. Just... more cluttered, and sometimes even stressed about money."
-    m 1hua "I think that’s because real happiness comes from experiences, relationships, and meaning—not just things."
+    m 1hua "I think that’s because real happiness comes from experiences, relationships, and meaning--not just things."
     m 1eub "So how can we break that cycle?"
     m 3eua "One way is to pause before buying something and ask yourself: {i}Do I really need this, or do I just want it right now?{/i}"
     m 1hua "Another trick is waiting a day or two before making a purchase. If you still feel it’s worth it, then maybe it is."
