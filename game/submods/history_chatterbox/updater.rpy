@@ -6,7 +6,6 @@ init -989 python:
             submod="history_chatterbox",          # MUST match your folder name in game/Submods
             user_name="historyvariety",           # Your GitHub username
             repository_name="Chatterbox_submod",  # Your repo name (not the full URL)
-            repository_url="https://github.com/Historyvariety/Chatterbox_submod",
             extraction_depth=3                    # Most likely 3 (see below)
         )
 
